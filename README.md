@@ -9,19 +9,6 @@ Sistem pemantauan kadar gas secara *real-time* berbasis IoT menggunakan **ESP32*
 
 ---
 
-## Daftar Isi
-- [Fitur Utama](#-fitur-utama)
-- [Arsitektur & Alur Kerja](#-arsitektur--alur-kerja)
-- [Skema Pin & Rangkaian](#-skema-pin--rangkaian)
-- [Ambang Batas & Status Alarm](#-ambang-batas--status-alarm)
-- [Topik MQTT & Payload](#-topik-mqtt--payload)
-- [Persiapan & Instalasi Software](#-persiapan--instalasi-software)
-- [Cara Upload Kode ke ESP32](#-cara-upload-kode-ke-esp32)
-- [Cara Monitoring Data via MQTT Client](#-cara-monitoring-data-via-mqtt-client)
-- [Troubleshooting](#-troubleshooting)
-- [Lisensi](#-lisensi)
-
----
 
 ## Fitur Utama
 
