@@ -1,4 +1,4 @@
-# 📡 ESP32 Real-Time Gas Monitoring & Telemetry Node
+# ESP32 Real-Time Gas Monitoring & Telemetry Node
 
 [![Board: ESP32](https://img.shields.io/badge/Board-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
 [![Protocol: MQTT](https://img.shields.io/badge/Protocol-MQTT-green.svg)](https://mqtt.org/)
@@ -9,7 +9,7 @@ Sistem pemantauan kebocoran gas secara *real-time* berbasis IoT menggunakan **ES
 
 ---
 
-## 📋 Daftar Isi
+## Daftar Isi
 - [Fitur Utama](#-fitur-utama)
 - [Arsitektur & Alur Kerja](#-arsitektur--alur-kerja)
 - [Skema Pin & Rangkaian](#-skema-pin--rangkaian)
@@ -23,7 +23,7 @@ Sistem pemantauan kebocoran gas secara *real-time* berbasis IoT menggunakan **ES
 
 ---
 
-## 🛠️ Fitur Utama
+## Fitur Utama
 
 - **Real-Time Data Sampling:** Sampling sensor analog gas dengan resolusi 12-bit (0–4095) setiap 3 detik.
 - **Perhitungan Kepekaan Gas:** Konversi otomatis nilai mentah ADC menjadi persentase kepekaan ($0.00\% - 100.00\%$).
@@ -35,7 +35,7 @@ Sistem pemantauan kebocoran gas secara *real-time* berbasis IoT menggunakan **ES
 
 ---
 
-## 🏗️ Arsitektur & Alur Kerja
+## Arsitektur & Alur Kerja
 
 ```text
 [ MQ Sensor ] ---> (GPIO 34) ---> [ ESP32 Node ] ---> (Wi-Fi) ---> [ HiveMQ Broker ]
