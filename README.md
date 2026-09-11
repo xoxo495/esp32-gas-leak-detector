@@ -1,3 +1,10 @@
+# 📡 ESP32 Real-Time Gas Monitoring & Telemetry Node
+
+[![Board: ESP32](https://img.shields.io/badge/Board-ESP32-blue.svg)](https://www.espressif.com/en/products/socs/esp32)
+[![Protocol: MQTT](https://img.shields.io/badge/Protocol-MQTT-green.svg)](https://mqtt.org/)
+[![Broker: HiveMQ](https://img.shields.io/badge/Broker-HiveMQ-yellow.svg)](https://www.hivemq.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
+
 Sistem pemantauan kebocoran gas secara *real-time* berbasis IoT menggunakan **ESP32**, **MQ Sensor (12-bit ADC)**, dan **Broker MQTT HiveMQ**. Sistem ini membaca kadar gas, menghitung persen kepekaan gas, memicu alarm bunyi bertingkat (buzzer), serta mengirimkan data telemetri ke server MQTT setiap 3 detik.
 
 ---
